@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.parent > p{
+    width: 100%;
+    min-width: 16%;
+    overflow-wrap:break-word;
+}
+
+input{
+    border: 1px solid;
+    text-align: center;
+}
